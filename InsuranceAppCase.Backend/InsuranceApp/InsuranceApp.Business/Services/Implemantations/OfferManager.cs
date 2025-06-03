@@ -1,13 +1,9 @@
 ﻿using InsuranceApp.Business.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace InsuranceApp.Business.Services.Implemantations
+namespace InsuranceApp.Business
 {
-    public class OfferManager:IOfferService
+    public class OfferManager : IOfferService
     {
+
     }
 }

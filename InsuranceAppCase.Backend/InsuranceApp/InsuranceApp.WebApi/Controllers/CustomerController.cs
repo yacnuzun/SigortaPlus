@@ -37,19 +37,4 @@ namespace InsuranceApp.WebApi.Controllers
             return Ok();
         }
     }
-
-    public class OfferController: ApiController
-    {
-        private readonly IOfferService _offerService;
-
-        public OfferController(IOfferService offerService)
-        {
-            _offerService = offerService;
-        }
-
-        public async Task<IHttpActionResult> AddAsyncFile(IFormFile file)
-        {
-
-        }
-    }
 }

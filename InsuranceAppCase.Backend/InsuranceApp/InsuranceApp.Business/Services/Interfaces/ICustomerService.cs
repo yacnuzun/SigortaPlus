@@ -15,4 +15,8 @@ namespace InsuranceApp.Business.Services.Interfaces
         Task<IResult> Add(CustomerCreateDto customerCreateDto);
         Task<IDataResult<List<CustomerResponseDto>>> GetCustomers();
     }
+    public interface IOfferService
+    {
+
+    }
 }
