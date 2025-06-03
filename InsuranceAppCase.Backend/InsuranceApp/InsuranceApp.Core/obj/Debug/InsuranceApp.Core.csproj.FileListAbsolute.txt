@@ -1,6 +1,0 @@
-C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Core\bin\Debug\InsuranceApp.Core.dll
-C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Core\bin\Debug\InsuranceApp.Core.pdb
-C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Core\obj\Debug\InsuranceApp.Core.csproj.AssemblyReference.cache
-C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Core\obj\Debug\InsuranceApp.Core.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Core\obj\Debug\InsuranceApp.Core.dll
-C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Core\obj\Debug\InsuranceApp.Core.pdb
