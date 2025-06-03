@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\bin\Debug\InsuranceApp.Entities.dll
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\bin\Debug\InsuranceApp.Entities.pdb
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\bin\Debug\InsuranceApp.Core.dll
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\bin\Debug\InsuranceApp.Core.pdb
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\obj\Debug\InsuranceApp.Entities.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\obj\Debug\InsuranceApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\obj\Debug\Insuranc.15A92C2E.Up2Date
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\obj\Debug\InsuranceApp.Entities.dll
+C:\Users\user\Desktop\yalcin\InsuranceAppCase\InsuranceAppCase.Backend\InsuranceApp\InsuranceApp.Entities\obj\Debug\InsuranceApp.Entities.pdb

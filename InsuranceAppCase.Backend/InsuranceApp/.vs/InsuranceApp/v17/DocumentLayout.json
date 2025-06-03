@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A079E6E-BEB8-4F79-AAC4-D5930AEFEE97}|InsuranceApp.WebApi\\InsuranceApp.WebApi.csproj|C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\insuranceapp.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A079E6E-BEB8-4F79-AAC4-D5930AEFEE97}|InsuranceApp.WebApi\\InsuranceApp.WebApi.csproj|solutionrelative:insuranceapp.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FEE58-54E9-41B1-B935-0FAAD17FDCFB}|InsuranceApp.DataAccess\\InsuranceApp.DataAccess.csproj|c:\\users\\user\\desktop\\yalcin\\insuranceappcase\\insuranceappcase.backend\\insuranceapp\\insuranceapp.dataaccess\\persistance\\repositories\\baserepo\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FEE58-54E9-41B1-B935-0FAAD17FDCFB}|InsuranceApp.DataAccess\\InsuranceApp.DataAccess.csproj|solutionrelative:insuranceapp.dataaccess\\persistance\\repositories\\baserepo\\efrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342F351-338A-4E10-B715-41E422D3C4A8}|InsuranceApp.Business\\InsuranceApp.Business.csproj|c:\\users\\user\\desktop\\yalcin\\insuranceappcase\\insuranceappcase.backend\\insuranceapp\\insuranceapp.business\\dto\u0027s\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342F351-338A-4E10-B715-41E422D3C4A8}|InsuranceApp.Business\\InsuranceApp.Business.csproj|solutionrelative:insuranceapp.business\\dto\u0027s\\customercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2E0D42-B327-44B2-B896-A841839F969F}|InsuranceApp.Core\\InsuranceApp.Core.csproj|c:\\users\\user\\desktop\\yalcin\\insuranceappcase\\insuranceappcase.backend\\insuranceapp\\insuranceapp.core\\entities\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2E0D42-B327-44B2-B896-A841839F969F}|InsuranceApp.Core\\InsuranceApp.Core.csproj|solutionrelative:insuranceapp.core\\entities\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342F351-338A-4E10-B715-41E422D3C4A8}|InsuranceApp.Business\\InsuranceApp.Business.csproj|c:\\users\\user\\desktop\\yalcin\\insuranceappcase\\insuranceappcase.backend\\insuranceapp\\insuranceapp.business\\dto\u0027s\\offerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342F351-338A-4E10-B715-41E422D3C4A8}|InsuranceApp.Business\\InsuranceApp.Business.csproj|solutionrelative:insuranceapp.business\\dto\u0027s\\offerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342F351-338A-4E10-B715-41E422D3C4A8}|InsuranceApp.Business\\InsuranceApp.Business.csproj|c:\\users\\user\\desktop\\yalcin\\insuranceappcase\\insuranceappcase.backend\\insuranceapp\\insuranceapp.business\\services\\implemantations\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342F351-338A-4E10-B715-41E422D3C4A8}|InsuranceApp.Business\\InsuranceApp.Business.csproj|solutionrelative:insuranceapp.business\\services\\implemantations\\customermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2E0D42-B327-44B2-B896-A841839F969F}|InsuranceApp.Core\\InsuranceApp.Core.csproj|c:\\users\\user\\desktop\\yalcin\\insuranceappcase\\insuranceappcase.backend\\insuranceapp\\insuranceapp.core\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2E0D42-B327-44B2-B896-A841839F969F}|InsuranceApp.Core\\InsuranceApp.Core.csproj|solutionrelative:insuranceapp.core\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FEE58-54E9-41B1-B935-0FAAD17FDCFB}|InsuranceApp.DataAccess\\InsuranceApp.DataAccess.csproj|c:\\users\\user\\desktop\\yalcin\\insuranceappcase\\insuranceappcase.backend\\insuranceapp\\insuranceapp.dataaccess\\persistance\\repositories\\efofferdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FEE58-54E9-41B1-B935-0FAAD17FDCFB}|InsuranceApp.DataAccess\\InsuranceApp.DataAccess.csproj|solutionrelative:insuranceapp.dataaccess\\persistance\\repositories\\efofferdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FEE58-54E9-41B1-B935-0FAAD17FDCFB}|InsuranceApp.DataAccess\\InsuranceApp.DataAccess.csproj|C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\insuranceapp.dataaccess\\persistance\\repositories\\efcustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FEE58-54E9-41B1-B935-0FAAD17FDCFB}|InsuranceApp.DataAccess\\InsuranceApp.DataAccess.csproj|solutionrelative:insuranceapp.dataaccess\\persistance\\repositories\\efcustomerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A079E6E-BEB8-4F79-AAC4-D5930AEFEE97}|InsuranceApp.WebApi\\InsuranceApp.WebApi.csproj|c:\\users\\user\\desktop\\yalcin\\insuranceappcase\\insuranceappcase.backend\\insuranceapp\\insuranceapp.webapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6A079E6E-BEB8-4F79-AAC4-D5930AEFEE97}|InsuranceApp.WebApi\\InsuranceApp.WebApi.csproj|solutionrelative:insuranceapp.webapi\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A079E6E-BEB8-4F79-AAC4-D5930AEFEE97}|InsuranceApp.WebApi\\InsuranceApp.WebApi.csproj|C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\insuranceapp.webapi\\app_start\\autofacconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A079E6E-BEB8-4F79-AAC4-D5930AEFEE97}|InsuranceApp.WebApi\\InsuranceApp.WebApi.csproj|solutionrelative:insuranceapp.webapi\\app_start\\autofacconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FEE58-54E9-41B1-B935-0FAAD17FDCFB}|InsuranceApp.DataAccess\\InsuranceApp.DataAccess.csproj|C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\insuranceapp.dataaccess\\autofac\\dataaccessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FEE58-54E9-41B1-B935-0FAAD17FDCFB}|InsuranceApp.DataAccess\\InsuranceApp.DataAccess.csproj|solutionrelative:insuranceapp.dataaccess\\autofac\\dataaccessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D342F351-338A-4E10-B715-41E422D3C4A8}|InsuranceApp.Business\\InsuranceApp.Business.csproj|C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\insuranceapp.business\\dto\u0027s\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D342F351-338A-4E10-B715-41E422D3C4A8}|InsuranceApp.Business\\InsuranceApp.Business.csproj|solutionrelative:insuranceapp.business\\dto\u0027s\\customerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 209,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Offer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Core\\Entities\\Offer.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.Core\\Entities\\Offer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Core\\Entities\\Offer.cs",
+              "RelativeToolTip": "InsuranceApp.Core\\Entities\\Offer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:23:22.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerCreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Business\\DTO\u0027s\\CustomerCreateDTO.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.Business\\DTO\u0027s\\CustomerCreateDTO.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Business\\DTO\u0027s\\CustomerCreateDTO.cs",
+              "RelativeToolTip": "InsuranceApp.Business\\DTO\u0027s\\CustomerCreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:23:05.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OfferDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Business\\DTO\u0027s\\OfferDto.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.Business\\DTO\u0027s\\OfferDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Business\\DTO\u0027s\\OfferDto.cs",
+              "RelativeToolTip": "InsuranceApp.Business\\DTO\u0027s\\OfferDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T16:22:57.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Core\\Interfaces\\IEntity.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.Core\\Interfaces\\IEntity.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Core\\Interfaces\\IEntity.cs",
+              "RelativeToolTip": "InsuranceApp.Core\\Interfaces\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:23:53.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EfOfferDal.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.DataAccess\\Persistance\\Repositories\\EfOfferDal.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.DataAccess\\Persistance\\Repositories\\EfOfferDal.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.DataAccess\\Persistance\\Repositories\\EfOfferDal.cs",
+              "RelativeToolTip": "InsuranceApp.DataAccess\\Persistance\\Repositories\\EfOfferDal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:23:18.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.DataAccess\\Persistance\\Repositories\\BaseRepo\\EfRepository.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.DataAccess\\Persistance\\Repositories\\BaseRepo\\EfRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.DataAccess\\Persistance\\Repositories\\BaseRepo\\EfRepository.cs",
+              "RelativeToolTip": "InsuranceApp.DataAccess\\Persistance\\Repositories\\BaseRepo\\EfRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T15:20:36.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.WebApi\\Web.config",
+              "RelativeDocumentMoniker": "InsuranceApp.WebApi\\Web.config",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.WebApi\\Web.config",
+              "RelativeToolTip": "InsuranceApp.WebApi\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-02T15:19:46.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataAccessModule.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.DataAccess\\Autofac\\DataAccessModule.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.DataAccess\\Autofac\\DataAccessModule.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.DataAccess\\Autofac\\DataAccessModule.cs",
+              "RelativeToolTip": "InsuranceApp.DataAccess\\Autofac\\DataAccessModule.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:27:29.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Business\\Services\\Implemantations\\CustomerManager.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.Business\\Services\\Implemantations\\CustomerManager.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Business\\Services\\Implemantations\\CustomerManager.cs",
+              "RelativeToolTip": "InsuranceApp.Business\\Services\\Implemantations\\CustomerManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAawBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:26:17.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EfCustomerDal.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.DataAccess\\Persistance\\Repositories\\EfCustomerDal.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.DataAccess\\Persistance\\Repositories\\EfCustomerDal.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.DataAccess\\Persistance\\Repositories\\EfCustomerDal.cs",
+              "RelativeToolTip": "InsuranceApp.DataAccess\\Persistance\\Repositories\\EfCustomerDal.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:14:32.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AutofacConfig.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.WebApi\\App_Start\\AutofacConfig.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.WebApi\\App_Start\\AutofacConfig.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.WebApi\\App_Start\\AutofacConfig.cs",
+              "RelativeToolTip": "InsuranceApp.WebApi\\App_Start\\AutofacConfig.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:13:52.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.WebApi\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.WebApi\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.WebApi\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "InsuranceApp.WebApi\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAnwCoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:12:53.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Business\\DTO\u0027s\\CustomerResponseDto.cs",
+              "RelativeDocumentMoniker": "InsuranceApp.Business\\DTO\u0027s\\CustomerResponseDto.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\yalcin\\InsuranceAppCase\\InsuranceAppCase.Backend\\InsuranceApp\\InsuranceApp.Business\\DTO\u0027s\\CustomerResponseDto.cs",
+              "RelativeToolTip": "InsuranceApp.Business\\DTO\u0027s\\CustomerResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:08:20.805Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
