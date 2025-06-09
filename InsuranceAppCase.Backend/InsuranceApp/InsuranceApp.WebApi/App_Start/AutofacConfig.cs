@@ -10,6 +10,7 @@ using InsuranceApp.Business;
 using InsuranceApp.Business.Services.Interfaces;
 using InsuranceApp.DataAccess.Persistance.DbConnection;
 using InsuranceApp.Core.Autofac;
+using Microsoft.Extensions.Logging;
 
 namespace InsuranceApp.WebApi
 {
@@ -19,10 +20,21 @@ namespace InsuranceApp.WebApi
         {
             var builder = new ContainerBuilder();
 
+            var loggerFactory = LoggerFactory.Create(b =>
+            {
+                b.AddConsole(); // veya başka bir provider ekle
+            });
+
             // DbContext registration (EF6 için)
             builder.RegisterType<InsuranceAppDbContext>()
                    .AsSelf()
                    .InstancePerRequest(); // Web API'de her istek için ayrı context
+
+
+
+            builder.RegisterInstance(loggerFactory).As<ILoggerFactory>().SingleInstance();
+            builder.RegisterGeneric(typeof(Logger<>)).As(typeof(ILogger<>)).SingleInstance();
+
 
             // Repository, service, controller vs.ApplicationModule
             builder.RegisterModule<DataAccessModule>();
