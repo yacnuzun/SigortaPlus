@@ -15,7 +15,8 @@ namespace InsuranceApp.Business.Autofac
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<CustomerManager>().As<ICustomerService>().InstancePerRequest();
-            //builder.RegisterType<OfferService>().As<IOfferService>().InstancePerRequest();
+            builder.RegisterType<FakeDataService>().As<IFakeDataService>().InstancePerLifetimeScope();
+            builder.RegisterType<OfferManager>().As<IOfferService>();
         }
     }
 }

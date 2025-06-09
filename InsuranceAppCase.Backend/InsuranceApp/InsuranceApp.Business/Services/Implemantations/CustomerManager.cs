@@ -1,4 +1,4 @@
-﻿using InsuranceApp.Business.DTO_s;
+﻿using InsuranceApp.Core.DTO_s;
 using InsuranceApp.Core.Entities;
 using InsuranceApp.Business.Services.Interfaces;
 using InsuranceApp.Core.EntityFramework;

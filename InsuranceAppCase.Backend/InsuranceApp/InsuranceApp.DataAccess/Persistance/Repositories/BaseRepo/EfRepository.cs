@@ -57,5 +57,10 @@ namespace InsuranceApp.DataAccess
             (entity as BaseEntity).IsDeleted = true;
             Update(entity);
         }
+
+        public async Task<IEnumerable<T>> AddRangeAsync(IEnumerable<T> entities)
+        {
+            return Context.Set<T>().AddRange(entities);
+        }
     }
 }

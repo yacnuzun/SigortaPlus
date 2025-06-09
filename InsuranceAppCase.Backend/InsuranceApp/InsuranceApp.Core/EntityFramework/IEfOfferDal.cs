@@ -1,4 +1,5 @@
 ﻿using InsuranceApp.Core.Entities;
+using InsuranceApp.Core.DTO_s;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Runtime.Remoting.Contexts;
@@ -8,5 +9,6 @@ namespace InsuranceApp.Core.EntityFramework
 {
     public interface IEfOfferDal : IRepository<Offer>
     {
+        List<OfferResponseDto> GetMatchingHealthPolicies(OfferRequestDto request);
     }
 }

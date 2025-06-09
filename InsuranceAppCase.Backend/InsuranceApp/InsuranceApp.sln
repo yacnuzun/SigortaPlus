@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceApp.DataAccess", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceApp.Core", "InsuranceApp.Core\InsuranceApp.Core.csproj", "{7E2E0D42-B327-44B2-B896-A841839F969F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.SeedDataTool", "Insurance.SeedDataTool\Insurance.SeedDataTool.csproj", "{E2E21542-9A1B-4F3D-BC07-31C6110BF782}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7E2E0D42-B327-44B2-B896-A841839F969F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E2E0D42-B327-44B2-B896-A841839F969F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E2E0D42-B327-44B2-B896-A841839F969F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E21542-9A1B-4F3D-BC07-31C6110BF782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E21542-9A1B-4F3D-BC07-31C6110BF782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E21542-9A1B-4F3D-BC07-31C6110BF782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E21542-9A1B-4F3D-BC07-31C6110BF782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

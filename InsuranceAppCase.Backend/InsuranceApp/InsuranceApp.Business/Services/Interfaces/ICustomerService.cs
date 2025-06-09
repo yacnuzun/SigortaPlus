@@ -1,4 +1,4 @@
-﻿using InsuranceApp.Business.DTO_s;
+﻿using InsuranceApp.Core.DTO_s;
 using InsuranceApp.Core.Helpers.ResponseModels;
 using System;
 using System.Collections.Generic;
@@ -14,9 +14,5 @@ namespace InsuranceApp.Business.Services.Interfaces
         Task<IDataResult<CustomerResponseDto>> GetCustomer(int id);
         Task<IResult> Add(CustomerCreateDto customerCreateDto);
         Task<IDataResult<List<CustomerResponseDto>>> GetCustomers();
-    }
-    public interface IOfferService
-    {
-
     }
 }

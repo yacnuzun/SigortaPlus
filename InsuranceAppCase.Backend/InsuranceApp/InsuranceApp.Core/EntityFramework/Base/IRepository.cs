@@ -13,6 +13,7 @@ namespace InsuranceApp.Core
         Task<T> GetAsync(Expression<Func<T, bool>> predicate);
         Task<IEnumerable<T>> ListAsync(Expression<Func<T, bool>> predicate = null);
         Task AddAsync(T entity);
+        Task<IEnumerable<T>> AddRangeAsync(IEnumerable<T> entities);
         void Update(T entity);
         void Delete(T entity);
     }

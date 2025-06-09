@@ -1,4 +1,4 @@
-﻿using InsuranceApp.Business.DTO_s;
+﻿using InsuranceApp.Core.DTO_s;
 using InsuranceApp.Business.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using System.Threading.Tasks;

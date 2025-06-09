@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace InsuranceApp.Business.DTO_s
+namespace InsuranceApp.Core.DTO_s
 {
     public class CustomerCreateDto
     {

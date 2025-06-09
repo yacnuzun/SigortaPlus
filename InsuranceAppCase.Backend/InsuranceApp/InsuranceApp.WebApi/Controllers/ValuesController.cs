@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using InsuranceApp.Core.Helpers.ResponseModels;
-using InsuranceApp.Business.DTO_s;
+using InsuranceApp.Core.DTO_s;
 using System.Linq;
 using System.Net;
 using System.Net.Http;

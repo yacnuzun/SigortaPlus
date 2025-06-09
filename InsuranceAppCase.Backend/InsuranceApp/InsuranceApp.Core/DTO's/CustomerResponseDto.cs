@@ -1,6 +1,6 @@
 ﻿using InsuranceApp.Core.Interfaces;
 
-namespace InsuranceApp.Business.DTO_s
+namespace InsuranceApp.Core.DTO_s
 {
     public class CustomerResponseDto : IDto
     {

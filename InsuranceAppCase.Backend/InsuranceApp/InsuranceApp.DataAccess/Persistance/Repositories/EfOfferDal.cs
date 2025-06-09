@@ -1,5 +1,7 @@
-﻿using InsuranceApp.Core;
+﻿using InsuranceApp.Core.DTO_s;
+using InsuranceApp.Core;
 using InsuranceApp.Core.Entities;
+using InsuranceApp.Core.EntityFramework;
 using InsuranceApp.DataAccess.Persistance.DbConnection;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,29 +9,41 @@ using System.Threading.Tasks;
 
 namespace InsuranceApp.DataAccess.Persistance.Repositories
 {
-    public class EfOfferDal : EfRepository<Offer, InsuranceAppDbContext>, IRepository<Offer>
+    public class EfOfferDal : EfRepository<Offer, InsuranceAppDbContext>, IEfOfferDal
     {
         public EfOfferDal(InsuranceAppDbContext context) : base(context)
         {
         }
 
-        public async Task<List<Offer>> CreateanOffer(Customer customer,int age, int gender)
+        public List<OfferResponseDto> GetMatchingHealthPolicies(OfferRequestDto request)
         {
-            //var result = await (from rule in base.Context.Rules
-            //                    join policy in base.Context.HealthPolicies
-            //                    on rule.HealthPolicyId equals policy.Id
-            //                    where age >= rule.MinAge && age <= rule.MaxAge
-            //                          && (rule.Gender == 0 || rule.Gender == gender)
-            //                    select new Offer
-            //                    {
-            //                         = policy.Id,
-            //                        HealthPolicy = policy,
-                                    
-            //                        ResponseTitle = policy.Title,
-            //                        ResponseDescription = policy.Description
-            //                    }).ToListAsync();
+            var result = (from rule in base.Context.Rules
+                          where request.Age >= rule.MinAge &&
+                                request.Age <= rule.MaxAge &&
+                                (rule.Gender == 1) == request.Gender
+                          join policy in base.Context.HealthPolicies
+                              on rule.HealthPolicyId equals policy.Id
+                          select new
+                          {
+                              PolicyNumber = policy.PolicyNumber,
+                              StartDate = policy.StartDate,
+                              EndDate = policy.EndDate
+                          }).ToList(); // Artık veriler bellekte!
 
-            return null;
+
+
+
+
+            return result.Select(policy => new OfferResponseDto
+                          {
+                              ResponseTitle = $"Health Policy #{policy.PolicyNumber}",
+                              ResponseDescription = $"Valid from {policy.StartDate:yyyy-MM-dd} to {policy.EndDate:yyyy-MM-dd}",
+                              PremiumPrice = 1000, // Buraya opsiyonel olarak bir hesaplama veya sabit değer gelebilir
+                              ValidUntil = policy.EndDate
+                          }).ToList();
+
+            
         }
+
     }
 }

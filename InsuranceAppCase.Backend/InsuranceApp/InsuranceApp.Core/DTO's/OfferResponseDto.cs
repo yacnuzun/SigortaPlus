@@ -1,7 +1,7 @@
 ﻿using InsuranceApp.Core.Interfaces;
 using System;
 
-namespace InsuranceApp.Business.DTO_s
+namespace InsuranceApp.Core.DTO_s
 {
     public class OfferResponseDto : IDto
     {

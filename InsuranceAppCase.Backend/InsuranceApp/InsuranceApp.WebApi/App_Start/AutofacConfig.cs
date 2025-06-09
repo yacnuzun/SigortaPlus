@@ -9,6 +9,7 @@ using InsuranceApp.DataAccess.Persistance.Repositories;
 using InsuranceApp.Business;
 using InsuranceApp.Business.Services.Interfaces;
 using InsuranceApp.DataAccess.Persistance.DbConnection;
+using InsuranceApp.Core.Autofac;
 
 namespace InsuranceApp.WebApi
 {
@@ -23,9 +24,10 @@ namespace InsuranceApp.WebApi
                    .AsSelf()
                    .InstancePerRequest(); // Web API'de her istek için ayrı context
 
-            // Repository, service, controller vs.
-            builder.RegisterType<EfCustomerDal>().As<IEfCustomerDal>();
-            builder.RegisterType<CustomerManager>().As<ICustomerService>();
+            // Repository, service, controller vs.ApplicationModule
+            builder.RegisterModule<DataAccessModule>();
+            builder.RegisterModule<ApplicationModule>();
+            builder.RegisterModule<CoreModule>();
 
             // Controller registration
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
