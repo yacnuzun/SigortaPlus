@@ -16,6 +16,4 @@ namespace InsuranceApp.Core.Entities
         // Many-to-many
         public virtual ICollection<OfferHealthPolicy> OfferHealthPolicies { get; set; }
     }
-
-
 }

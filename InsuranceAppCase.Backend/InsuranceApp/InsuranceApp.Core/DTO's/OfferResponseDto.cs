@@ -1,5 +1,6 @@
 ﻿using InsuranceApp.Core.Interfaces;
 using System;
+using System.Collections.Generic;
 
 namespace InsuranceApp.Core.DTO_s
 {
@@ -9,5 +10,10 @@ namespace InsuranceApp.Core.DTO_s
         public string ResponseDescription { get; set; }
         public decimal PremiumPrice { get; set; }
         public DateTime ValidUntil { get; set; }
+    }
+    public class OfferResponseForeignKey
+    {
+        public IEnumerable<int> HealthKeys { get; set; }
+        public int? CustomerId { get; set; }
     }
 }

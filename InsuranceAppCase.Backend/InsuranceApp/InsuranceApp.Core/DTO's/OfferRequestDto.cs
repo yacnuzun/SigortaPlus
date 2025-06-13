@@ -1,4 +1,5 @@
-﻿using InsuranceApp.Core.Interfaces;
+﻿using InsuranceApp.Core.Entities;
+using InsuranceApp.Core.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

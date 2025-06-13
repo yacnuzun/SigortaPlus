@@ -15,32 +15,30 @@ namespace InsuranceApp.DataAccess.Persistance.Repositories
         {
         }
 
-        public List<OfferResponseDto> GetMatchingHealthPolicies(OfferRequestDto request)
+        public OfferResponseForeignKey GetMatchingHealthPolicies(Customer customer)
         {
             var result = (from rule in base.Context.Rules
-                          where request.Age >= rule.MinAge &&
-                                request.Age <= rule.MaxAge &&
-                                (rule.Gender == 1) == request.Gender
+                          where customer.Age >= rule.MinAge &&
+                                customer.Age <= rule.MaxAge &&
+                                rule.Gender  == customer.Gender &&
+                                rule.IsDeleted == false
                           join policy in base.Context.HealthPolicies
                               on rule.HealthPolicyId equals policy.Id
+                          where policy.IsDeleted == false
                           select new
                           {
-                              PolicyNumber = policy.PolicyNumber,
-                              StartDate = policy.StartDate,
-                              EndDate = policy.EndDate
+                              PolicyId = policy.Id,
                           }).ToList(); // Artık veriler bellekte!
 
 
 
 
 
-            return result.Select(policy => new OfferResponseDto
-                          {
-                              ResponseTitle = $"Health Policy #{policy.PolicyNumber}",
-                              ResponseDescription = $"Valid from {policy.StartDate:yyyy-MM-dd} to {policy.EndDate:yyyy-MM-dd}",
-                              PremiumPrice = 1000, // Buraya opsiyonel olarak bir hesaplama veya sabit değer gelebilir
-                              ValidUntil = policy.EndDate
-                          }).ToList();
+            return new OfferResponseForeignKey
+            {
+                CustomerId = customer.Id,
+                HealthKeys = result.Select(p=>p.PolicyId).ToList()
+            };
 
             
         }

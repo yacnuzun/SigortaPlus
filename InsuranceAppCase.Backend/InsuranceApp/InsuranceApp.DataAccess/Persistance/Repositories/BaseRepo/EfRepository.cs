@@ -22,8 +22,8 @@ namespace InsuranceApp.DataAccess
 
         public async Task<T> GetAsync(Expression<Func<T, bool>> predicate)
         {
-            return Context.Set<T>().FirstOrDefault(
-                x => !x.IsDeleted && predicate.Compile().Invoke(x));
+            var result = Context.Set<T>().Where(x => !x.IsDeleted).FirstOrDefault(predicate);
+            return result; 
         }
 
         public async Task<IEnumerable<T>> ListAsync(Expression<Func<T, bool>> predicate = null)
@@ -42,9 +42,9 @@ namespace InsuranceApp.DataAccess
             
         }
 
-        public async Task AddAsync(T entity)
+        public async Task<T> AddAsync(T entity)
         {
-            Context.Set<T>().Add(entity);
+            return Context.Set<T>().Add(entity);
         }
 
         public void Update(T entity)

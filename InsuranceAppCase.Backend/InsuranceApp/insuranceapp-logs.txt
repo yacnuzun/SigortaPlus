@@ -1,0 +1,140 @@
+2025-06-11 15:45:07.580 +03:00 [INF] Serilog started
+2025-06-11 15:48:24.021 +03:00 [INF] Serilog started
+2025-06-11 15:48:38.453 +03:00 [INF] Poliçe arama isteği: {"FullName":"sample string 1","Age":20,"Gender":true,"$type":"OfferRequestDto"} UserId: Zaman:"2025-06-11T15:48:38.4327082+03:00"
+2025-06-11 15:53:56.022 +03:00 [INF] Serilog started
+2025-06-11 15:54:16.159 +03:00 [ERR] ElasticSearch bağlantı hatası: Invalid NEST response built from a unsuccessful () low level call on HEAD: /
+# Audit trail of this API call:
+ - [1] ProductCheckOnStartup: Took: 00:00:00.0019990
+ - [2] ProductCheckFailure: Node: http://localhost:9200/ Took: 00:00:00.0019990
+# OriginalException: Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET / ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. ---> System.Net.WebException: Temel alınan bağlantı kapatıldı: Bağlantı beklenmedik bir şekilde kapatıldı.
+   konum: System.Net.HttpWebRequest.GetResponse()
+   konum: Elasticsearch.Net.HttpWebRequestConnection.Request[TResponse](RequestData requestData) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Connection\HttpWebRequestConnection.cs içinde: satır 73
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure() C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Pipeline\RequestPipeline.cs içinde: satır 661
+   konum: Elasticsearch.Net.RequestPipeline.Ping(Node node) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Pipeline\RequestPipeline.cs içinde: satır 476
+   konum: Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Transport.cs içinde: satır 259
+   konum: Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Transport.cs içinde: satır 87
+   --- İç özel durum yığını izlemesinin sonu ---
+# Request:
+<Request stream not captured or already read to completion by serializer. Set DisableDirectStreaming() on ConnectionSettings to force it to be set on the response.>
+# Response:
+<Response stream not captured or already read to completion by serializer. Set DisableDirectStreaming() on ConnectionSettings to force it to be set on the response.>
+
+2025-06-11 15:56:04.909 +03:00 [INF] Serilog started
+2025-06-11 15:59:37.333 +03:00 [INF] Serilog started
+2025-06-11 16:01:21.668 +03:00 [ERR] ElasticSearch bağlantı hatası: Invalid NEST response built from a unsuccessful () low level call on HEAD: /
+# Audit trail of this API call:
+ - [1] ProductCheckOnStartup: Took: 00:00:00.0924955
+ - [2] ProductCheckFailure: Node: https://localhost:9200/ Took: 00:00:00.0924955
+# OriginalException: Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET / ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. ---> System.Net.WebException: Temel alınan bağlantı kapatıldı: SSL/TLS güvenli kanalı içi güven ilişkisi kurulamadı. ---> System.Security.Authentication.AuthenticationException: Doğrulama yordamına göre uzak sertifika geçersiz.
+   konum: System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   konum: System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   konum: System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   konum: System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   konum: System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   konum: System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.HttpWebRequest.GetResponse()
+   konum: Elasticsearch.Net.HttpWebRequestConnection.Request[TResponse](RequestData requestData) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Connection\HttpWebRequestConnection.cs içinde: satır 73
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure() C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Pipeline\RequestPipeline.cs içinde: satır 661
+   konum: Elasticsearch.Net.RequestPipeline.Ping(Node node) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Pipeline\RequestPipeline.cs içinde: satır 476
+   konum: Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Transport.cs içinde: satır 259
+   konum: Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Transport.cs içinde: satır 87
+   --- İç özel durum yığını izlemesinin sonu ---
+# Request:
+<Request stream not captured or already read to completion by serializer. Set DisableDirectStreaming() on ConnectionSettings to force it to be set on the response.>
+# Response:
+<Response stream not captured or already read to completion by serializer. Set DisableDirectStreaming() on ConnectionSettings to force it to be set on the response.>
+
+2025-06-11 16:02:08.211 +03:00 [INF] Poliçe arama isteği: {"FullName":"sample string 1","Age":20,"Gender":true,"$type":"OfferRequestDto"} UserId: Zaman:"2025-06-11T16:02:08.2005093+03:00"
+2025-06-11 16:06:22.446 +03:00 [INF] Serilog started
+2025-06-11 16:06:34.962 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:06:46.412 +03:00 [INF] Poliçe arama isteği: {"FullName":"sample string 1","Age":20,"Gender":true,"$type":"OfferRequestDto"} UserId: Zaman:"2025-06-11T16:06:46.3893323+03:00"
+2025-06-11 16:15:00.187 +03:00 [INF] Serilog started
+2025-06-11 16:15:06.834 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:16:50.197 +03:00 [INF] Serilog started
+2025-06-11 16:16:53.559 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:17:56.264 +03:00 [INF] Serilog started
+2025-06-11 16:17:56.334 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:21:13.724 +03:00 [INF] Serilog started
+2025-06-11 16:21:13.841 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:28:58.178 +03:00 [INF] Serilog started
+2025-06-11 16:28:58.255 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:33:40.736 +03:00 [INF] Serilog started
+2025-06-11 16:33:40.836 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:33:44.757 +03:00 [INF] Poliçe arama isteği: {"FullName":"sample string 1","Age":20,"Gender":true,"$type":"OfferRequestDto"} UserId: Zaman:"2025-06-11T16:33:44.7382715+03:00"
+2025-06-11 16:44:10.828 +03:00 [INF] Serilog started
+2025-06-11 16:44:10.916 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:44:19.198 +03:00 [INF] Poliçe arama isteği: {"FullName":"sample string 1","Age":20,"Gender":true,"$type":"OfferRequestDto"} UserId: Zaman:"2025-06-11T16:44:19.1841891+03:00"
+2025-06-11 16:51:50.665 +03:00 [INF] Serilog started
+2025-06-11 16:51:50.817 +03:00 [ERR] ElasticSearch bağlantı hatası: Invalid NEST response built from a unsuccessful () low level call on HEAD: /
+# Audit trail of this API call:
+ - [1] ProductCheckOnStartup: Took: 00:00:00.0230355
+ - [2] ProductCheckFailure: Node: https://localhost:9200/ Took: 00:00:00.0230355
+# OriginalException: Elasticsearch.Net.ElasticsearchClientException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. Call: Status code unknown from: GET / ---> Elasticsearch.Net.PipelineException: The client is unable to verify that the server is Elasticsearch due to an unsuccessful product check call. Some functionality may not be compatible if the server is running an unsupported product. ---> System.Net.WebException: Temel alınan bağlantı kapatıldı: SSL/TLS güvenli kanalı içi güven ilişkisi kurulamadı. ---> System.Security.Authentication.AuthenticationException: Doğrulama yordamına göre uzak sertifika geçersiz.
+   konum: System.Net.Security.SslState.StartSendAuthResetSignal(ProtocolToken message, AsyncProtocolRequest asyncRequest, Exception exception)
+   konum: System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.ProcessReceivedBlob(Byte[] buffer, Int32 count, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   konum: System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest, Boolean renegotiation)
+   konum: System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   konum: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   konum: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   konum: System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   konum: System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   konum: System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   konum: System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.HttpWebRequest.GetResponse()
+   konum: Elasticsearch.Net.HttpWebRequestConnection.Request[TResponse](RequestData requestData) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Connection\HttpWebRequestConnection.cs içinde: satır 73
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: Elasticsearch.Net.RequestPipeline.ThrowIfTransientProductCheckFailure() C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Pipeline\RequestPipeline.cs içinde: satır 661
+   konum: Elasticsearch.Net.RequestPipeline.Ping(Node node) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Pipeline\RequestPipeline.cs içinde: satır 476
+   konum: Elasticsearch.Net.Transport`1.Ping(IRequestPipeline pipeline, Node node) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Transport.cs içinde: satır 259
+   konum: Elasticsearch.Net.Transport`1.Request[TResponse](HttpMethod method, String path, PostData data, IRequestParameters requestParameters) C:\Users\SteveGordon\Code\elasticsearch-net-v7\src\Elasticsearch.Net\Transport\Transport.cs içinde: satır 87
+   --- İç özel durum yığını izlemesinin sonu ---
+# Request:
+<Request stream not captured or already read to completion by serializer. Set DisableDirectStreaming() on ConnectionSettings to force it to be set on the response.>
+# Response:
+<Response stream not captured or already read to completion by serializer. Set DisableDirectStreaming() on ConnectionSettings to force it to be set on the response.>
+
+2025-06-11 16:56:13.265 +03:00 [INF] Serilog started
+2025-06-11 16:56:13.343 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-11 16:56:20.126 +03:00 [INF] Poliçe arama isteği: {"FullName":"sample string 1","Age":20,"Gender":true,"$type":"OfferRequestDto"} UserId: Zaman:"2025-06-11T16:56:20.0298226+03:00"
+2025-06-13 12:03:03.166 +03:00 [INF] Serilog started
+2025-06-13 12:03:03.273 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-13 12:03:31.854 +03:00 [INF] Serilog started
+2025-06-13 12:03:31.943 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-13 12:04:21.740 +03:00 [INF] Serilog started
+2025-06-13 12:04:21.821 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-13 12:07:54.455 +03:00 [INF] Serilog started
+2025-06-13 12:07:54.545 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-13 12:29:43.114 +03:00 [INF] Serilog started
+2025-06-13 12:29:43.187 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-13 12:45:59.927 +03:00 [INF] Serilog started
+2025-06-13 12:46:00.091 +03:00 [INF] ElasticSearch bağlantısı başarılı!
+2025-06-13 12:46:16.660 +03:00 [INF] Poliçe arama isteği: {"FullName":"sample string 1","Age":20,"Gender":true,"$type":"OfferRequestDto"} UserId: Zaman:"2025-06-13T12:46:16.6482081+03:00"
+2025-06-13 12:47:41.781 +03:00 [INF] Poliçe arama sonucu: 3 kayıt bulundu. UserId:

@@ -37,8 +37,14 @@
     <Reference Include="Bogus, Version=35.6.3.0, Culture=neutral, PublicKeyToken=fa1bb3f3f218129a, processorArchitecture=MSIL">
       <HintPath>..\packages\Bogus.35.6.3\lib\net40\Bogus.dll</HintPath>
     </Reference>
+    <Reference Include="Elasticsearch.Net, Version=7.0.0.0, Culture=neutral, PublicKeyToken=96c599bbe3e70f5d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elasticsearch.Net.7.17.5\lib\net461\Elasticsearch.Net.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Nest, Version=7.0.0.0, Culture=neutral, PublicKeyToken=96c599bbe3e70f5d, processorArchitecture=MSIL">
+      <HintPath>..\packages\NEST.7.17.5\lib\net461\Nest.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -48,8 +54,8 @@
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
-    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.7.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.5.0.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
@@ -58,8 +64,8 @@
     <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
@@ -73,22 +79,38 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Autofac\CoreModules.cs" />
+    <Compile Include="Interfaces\ISmartSearchConvertible.cs" />
     <Compile Include="DTO%27s\CustomerCreateDTO.cs" />
     <Compile Include="DTO%27s\CustomerResponseDto.cs" />
     <Compile Include="DTO%27s\OfferDto.cs" />
     <Compile Include="DTO%27s\OfferHealthPolicyDto.cs" />
     <Compile Include="DTO%27s\OfferRequestDto.cs" />
     <Compile Include="DTO%27s\OfferResponseDto.cs" />
+    <Compile Include="DTO%27s\SearchRequest.cs" />
+    <Compile Include="DTO%27s\SearchResponse.cs" />
+    <Compile Include="ElasticSearch\IGenericElasticRepository.cs" />
+    <Compile Include="Entities\ElasticEntity\BaseElasticSearchEntity.cs" />
     <Compile Include="Entities\BaseEntity.cs" />
     <Compile Include="Entities\Customer.cs" />
+    <Compile Include="Entities\ElasticEntity\EntityLog\CustomerElasticDto.cs" />
+    <Compile Include="Entities\ElasticEntity\CustomerLog.cs" />
+    <Compile Include="Entities\ElasticEntity\EntityLog\HealthPolicyElasticDto.cs" />
+    <Compile Include="Entities\ElasticEntity\HealthPolicyLog.cs" />
+    <Compile Include="Entities\ElasticEntity\EntityLog\OfferElasticDto.cs" />
+    <Compile Include="Entities\ElasticEntity\EntityLog\OfferHealthPolicyElaticDto.cs" />
+    <Compile Include="Entities\ElasticEntity\OfferHealthPolicyLog.cs" />
+    <Compile Include="Entities\ElasticEntity\EntityLog\RuleElasticDto.cs" />
     <Compile Include="Entities\HealthPolicy.cs" />
     <Compile Include="Entities\Offer.cs" />
     <Compile Include="Entities\OfferHealthPolicy.cs" />
+    <Compile Include="Entities\ElasticEntity\OfferLog.cs" />
     <Compile Include="Entities\Rule.cs" />
+    <Compile Include="Entities\ElasticEntity\RuleLog.cs" />
     <Compile Include="EntityFramework\Base\IRepository.cs" />
     <Compile Include="EntityFramework\IEfCustomerDal.cs" />
     <Compile Include="EntityFramework\IEfHealthPolicyDal.cs" />
     <Compile Include="EntityFramework\IEfOfferDal.cs" />
+    <Compile Include="EntityFramework\IEfOfferHealthPolicyDal.cs" />
     <Compile Include="EntityFramework\IEfRuleDal.cs" />
     <Compile Include="Helpers\Faker\FakerService.cs" />
     <Compile Include="Helpers\Faker\IFakerService.cs" />

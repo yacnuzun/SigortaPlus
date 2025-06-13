@@ -9,6 +9,6 @@ namespace InsuranceApp.Core.EntityFramework
 {
     public interface IEfOfferDal : IRepository<Offer>
     {
-        List<OfferResponseDto> GetMatchingHealthPolicies(OfferRequestDto request);
+        OfferResponseForeignKey GetMatchingHealthPolicies(Customer customer);
     }
 }
