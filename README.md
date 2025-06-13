@@ -1,4 +1,4 @@
-# 🚀 InsuranceApp – Proje İlk Aşama Tamamlandı!
+# 🚀 SigortaPlus – Proje İlk Aşama Tamamlandı!
 
 ## Proje Kapsamı
 Bu proje, modern yazılım geliştirme prensipleriyle hazırlanmış, katmanlı mimariye sahip ve ölçeklenebilir bir sigorta uygulamasıdır. Projenin ilk fazında temel altyapı, veri yönetimi, akıllı arama ve loglama altyapısı başarıyla tamamlanmıştır.
